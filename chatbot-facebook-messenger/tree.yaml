@@ -1,0 +1,57 @@
+say: "¡Hola! Soy el Bot de MPG. Por favor, escoge una de las opciones para ayudarte."
+answers:
+
+  CTS:
+    say: Por favor, elija la opcion que desee consultar.
+    answers:
+      Traslado CTS:
+        say: El traslado es tal y tal, funciona asi y si necesitas trasladarlo. https://net.manpowergroup.pe/intranet/RRHH/frmInfPerMisCTS?Data=l2WHGzsMtpQY9JkD5sqBKuPJw2941ugLqyXCkplvtcv9WnaRZyfLn3rsTM2r%2bxX4xEglLWQU8mEp9HlE3Km0bQ%3d%3d loggeate y has tu traslado de CTS!
+      Puedo retirar mi CTS?:
+        say: POLITICA DE CTS
+      Como se calcula mi CTS?:
+        say: POLITICA DE CTS
+
+  Tengo una duda:
+    say: ¿Es una duda sobre las Gratificaciones, Utilidades, Comisiones / Contratos u Otros?
+    answers:
+      Gratificaciones:
+        say: ¡Por supuesto! Por favor, selecciona las opciones presentes.
+        answers:
+          ¿Como se calculan?:
+            say: POLITICA DE SUELDOS
+          Monto Registrado:
+            say: Referir al portal.(Hasta poder ver la forma de integrar SISPLAN al bot)
+      Contratos:
+        say: ¡Claro! Por favor, selecciona las opciones presentes.
+        answers:
+          ¿Cuando vence mi contrato?:
+            say: Integrar SISPLAN al Bot. Referenciar otra opción posible.
+          Constancia de trabajo:
+            say: Integrar SISPLAN al Bot. Referenciar otra opcion posible.
+      Otros:
+        say: ¡Perfecto! Aqui te muestro otras opciones.
+        answers:
+          AFP:
+            say: Selecciona una opción.
+            answers:
+              ¿Como puedo afiliarme?:
+                say: POLITICA
+          EPS:
+            say: Selecciona una opción.
+            answers:
+              Costo de EPS:
+                say: POLITICA
+              Planes Existentes:
+                say: POLITICA
+              Afiliarme: 
+                say: POLITICA
+
+  Solicitar desarrollo:
+    say: ¿Tienes definido formalmente el proyecto y estás dispuesto a invertir en él?
+    answers:
+      Aún no está definido:
+        say: Por favor cuéntame más y entonces te diré cómo puedo ayudarte.
+      No tengo presupuesto:
+        say: Entiendo. En tal caso te recomiendo inscribirte a mis cursos sobre programación. Puedes aprender mucho con los tutoriales, y además siempre atiendo todas las dudas.
+      Sí y sí:
+        say: Genial. Por favor envíame un documento con los requerimientos y te contactaré tan pronto como tenga una propuesta.
